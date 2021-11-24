@@ -1,0 +1,191 @@
+.titulo-principal{
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #f73f3f; 
+    padding:20px;
+}
+
+#banner{
+    width: 200px;
+    height: 200px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font: size 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+}
+
+.titulo-segundario{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.principal{
+    background-color: #fefefe;
+    padding: 3em 0;
+}
+
+.utensilios{
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic ;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+}
+
+p{
+    text-align: justify
+}
+
+#missao {
+    color: red; font-size: 20px;
+}
+
+.mapa{
+    padding: 3em 0;
+    text-align: center;
+    background: linear-gradient( #fefefe, rgb(250, 190, 78));
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.itens{
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.itens:before{
+    content: "●";
+}
+
+.itens:last-child{
+    font-weight: bold;
+}
+
+.beneficios{
+    background:linear-gradient(rgb(250, 190, 78), #f73f3f);
+    padding: 3em 0;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block; 
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+    
+}
+
+.lista-beneficios{
+    width: 40%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#imagembeneficios{
+    width: 45%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #421a1a67;
+}
+
+#imagembeneficios:hover{
+    opacity: 0.7;
+}
+
+footer{
+    text-align: center;
+    background: #f73f3f;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .lista-beneficios .imagembeneficios{
+        width: 100%;
+    }
+}
