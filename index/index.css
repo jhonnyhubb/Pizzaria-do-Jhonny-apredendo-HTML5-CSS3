@@ -130,10 +130,10 @@ h2{
 }
 
 ul{
-    display: inline-block; 
+    display: inline; 
     vertical-align: top;
     width: 20%;
-    margin-right: 15%;
+    margin-right: 0%;
 }
 
 .conteudo-beneficios{
